@@ -9,7 +9,7 @@ const Hero = () => {
                     <h2 className="lg:text-6xl text-4xl font">Welcome to next level Cryptocurrency Token with faster transfer</h2>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi veritatis, rerum ut at praesentium ullam alias magni! Ipsam unde nostrum ut enim commodi eaque tempora. Laborum accusamus deleniti eius? Sapiente?</p>
                     <div className='lg:w-1/2'>
-                        <button className="bg-black text-white px-3 py-1 rounded">Get Token</button>
+                        <button className="bg-black text-white px-3 py-1 rounded mr-5">Get Token</button>
                         <button className="hover:bg-black hover:text-white px-3 py-1 rounded">White Paper</button>
 
                     </div>

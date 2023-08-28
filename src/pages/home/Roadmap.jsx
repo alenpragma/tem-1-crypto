@@ -22,7 +22,7 @@ const Roadmap = () => {
                         </div>
                         <div className="flex flex-col justify-center items-center mt-5">
                             <p className="my-3" onClick={() => setToggle1((e) => !e)}>
-                                {toggle1 ? <RxRadiobutton className="text-3xl text-slate-300" /> : <RxRadiobutton className="text-3xl" />}
+                                {toggle1 ? <RxRadiobutton className="text-3xl text-slate-300" /> : <RxRadiobutton className="text-3xl text-emerald-500" />}
                             </p>
                             <p>29 January 2019</p>
                         </div>
@@ -33,7 +33,7 @@ const Roadmap = () => {
                         <div className="flex flex-col justify-center items-center">
                             <p>29 January 2019</p>
                             <p className="my-3" onClick={() => setToggle2((e) => !e)}>
-                                {toggle2 ? <RxRadiobutton className="text-3xl text-slate-300" /> : <RxRadiobutton className="text-3xl" />}
+                                {toggle2 ? <RxRadiobutton className="text-3xl text-slate-300" /> : <RxRadiobutton className="text-3xl text-emerald-500" />}
                             </p>
                         </div>
                         <div className="text-center space-y-5">
@@ -51,7 +51,7 @@ const Roadmap = () => {
                     </div>
                     <div className="flex flex-col justify-center items-center mt-5">
                         <p className="my-3" onClick={() => setToggle3((e) => !e)}>
-                            {toggle3 ? <RxRadiobutton className="text-3xl text-slate-300" /> : <RxRadiobutton className="text-3xl" />}
+                            {toggle3 ? <RxRadiobutton className="text-3xl text-slate-300" /> : <RxRadiobutton className="text-3xl text-emerald-500" />}
                         </p>
                         <p>29 January 2019</p>
                     </div>

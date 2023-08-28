@@ -3,7 +3,7 @@ const Graph = () => {
     return (
         <section className="max-w-7xl mx-auto lg:px-0 px-5 pt-10 mb-10">
             <div className='lg:flex justify-center items-center gap-5'>
-            <div className='lg:w-1/2 lg:mt-0 mt-5'>
+                <div className='lg:w-1/2 lg:mt-0 mt-5'>
                     <img src={graph} alt="" />
                 </div>
                 <div className='lg:w-1/2 space-y-5 leading-10'>
