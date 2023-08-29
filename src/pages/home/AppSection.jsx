@@ -17,7 +17,7 @@ import pay from '../../assets/icon/pay.png';
 
 const AppSection = () => {
     return (
-        <section className="max-w-7xl mx-auto lg:px-0 px-5 pt-10 mb-10">
+        <section className="max-w-7xl mx-auto lg:px-0 px-5 pt-20 mb-10" id='download'>
             <div className='lg:flex justify-center items-center gap-5'>
                 <div className='lg:w-1/2 lg:mt-0 mt-5 flex justify-center items-baseline relative'>
                     <img className='w-[280px]' src={img2} alt="" />

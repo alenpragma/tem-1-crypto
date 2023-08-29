@@ -1,6 +1,6 @@
 const Support = () => {
     return (
-        <section className="bg-[#141414] py-20 text-white">
+        <section className="bg-[#141414] py-20 text-white" id="support">
             <div className="max-w-7xl mx-auto text-center">
                 <div className="lg:w-[500px] mx-auto space-y-5">
                     <h2 className="text-3xl font-semibold">Want to talk to our Support team?</h2>

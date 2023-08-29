@@ -2,6 +2,7 @@ import AppSection from "./AppSection";
 import Choose from "./Choose";
 import Graph from "./Graph";
 import Hero from "./Hero";
+import Map from "./Map";
 import Roadmap from "./Roadmap";
 import Support from "./Support";
 import Token from "./Token";
@@ -14,6 +15,7 @@ const Home = () => {
             <Graph />
             <Roadmap />
             <Token />
+            <Map />
             <AppSection />
             <Support />
         </div>

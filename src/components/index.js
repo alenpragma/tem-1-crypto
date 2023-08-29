@@ -40,15 +40,19 @@ export const navLinks = [
         title: "Pricing",
     },
     {
+        id: "roadmap",
+        title: "Roadmap",
+    },
+    {
+        id: "map",
+        title: "Map",
+    },
+    {
+        id: "download",
+        title: "Download",
+    },
+    {
         id: "support",
         title: "Support",
-    },
-    {
-        id: "about",
-        title: "About Me",
-    },
-    {
-        id: "contact",
-        title: "Contact",
-    },
+    }
 ]

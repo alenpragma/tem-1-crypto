@@ -6,8 +6,8 @@ const Roadmap = () => {
     const [toggle2, setToggle2] = useState(true)
     const [toggle3, setToggle3] = useState(true)
     return (
-        <section className="max-w-7xl mx-auto lg:px-0 px-5 pt-10 mb-10">
-            <div className="max-w-2xlxl mx-auto text-center">
+        <section className="max-w-7xl mx-auto lg:px-0 px-5 pt-20 mb-10" id="roadmap">
+            <div className="max-w-2xl mx-auto text-center">
                 <h2 className="font text-4xl font-bold">Meet The Roadmap</h2>
                 <p className="mt-2">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
             </div>

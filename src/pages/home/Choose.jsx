@@ -4,7 +4,7 @@ import { choose } from "../../components";
 const Choose = () => {
     const [chooses, setchooses] = useState(choose);
     return (
-        <section className="max-w-7xl mx-auto lg:px-0 px-5 pt-10 mb-10">
+        <section className="max-w-7xl mx-auto lg:px-0 px-5 pt-20 mb-10" id="service">
             <div className="max-w-2xlxl mx-auto text-center">
                 <h2 className="font text-4xl font-bold">Why you Choose TheCoin</h2>
                 <p className="mt-2">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
