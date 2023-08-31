@@ -14,7 +14,7 @@ const Hero = () => {
                             <button className="bg-black text-white px-3 py-1 rounded mr-5 w-[120px] font-bold">Login</button>
                         </Link>
                         <Link to="register">
-                            <button className="bg-black text-white px-3 py-1 rounded mr-5 w-[120px] font-bold">Sign Up</button>
+                            <button className="bg-[#EAE8E8] text-black px-3 py-1 rounded mr-5 w-[120px] font-bold">Sign Up</button>
                         </Link>
                     </div>
                 </div>
