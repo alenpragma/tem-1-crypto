@@ -2,6 +2,9 @@ import { Link } from 'react-router-dom';
 import logo from '../../assets/logo/logo.png';
 
 const Footer = () => {
+    const goToTop = () => {
+        window.scrollTo({ top: 0, left: 0, behavior: "smooth" })
+    }
     return (
         <section className="max-w-7xl mx-auto lg:px-0 px-5">
             <footer className="footer p-10 text-base-content flex justify-around">
@@ -13,7 +16,7 @@ const Footer = () => {
                     <div className="flex flex-col">
                         <span className="footer-title">Importent Menu</span>
                         <a className="link link-hover">About us</a>
-                        <Link to="contact" className="link link-hover">Contact</Link>
+                        <Link to="/contact" className="link link-hover"  onClick={goToTop}>Contact</Link>
                         <a className="link link-hover">Jobs</a>
                         <a className="link link-hover">Press kit</a>
                     </div>

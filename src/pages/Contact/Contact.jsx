@@ -69,13 +69,14 @@ const Contact = () => {
                                 />
                             </div>
                         </div>
-                        <button type='submit' className='w-full bg-slate-300 font-bold p-2 rounded-xl cursor-pointer'>Send</button>
+                        <button type='submit' className='w-full bg-slate-300 hover:bg-slate-500 hover:text-white  font-bold p-2 rounded-xl cursor-pointer'>Send</button>
                     </form>
                 </div>
             </div>
             <div className='flex justify-center mt-10 lg:px-0 px-5'>
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3669.9272726395943!2d91.98047707505438!3d23.099758013443925!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3752e5f392c142c1%3A0x3d99e727c3514ab6!2sEdulife%20IT%20Institute!5e0!3m2!1sen!2sbd!4v1693548626875!5m2!1sen!2sbd" width="1000" height="450" style={{ border: 0 }} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
+            
         </section>
     );
 };
