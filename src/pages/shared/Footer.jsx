@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import logo from '../../assets/logo/logo.png';
 
 const Footer = () => {
@@ -12,7 +13,7 @@ const Footer = () => {
                     <div className="flex flex-col">
                         <span className="footer-title">Importent Menu</span>
                         <a className="link link-hover">About us</a>
-                        <a className="link link-hover">Contact</a>
+                        <Link to="contact" className="link link-hover">Contact</Link>
                         <a className="link link-hover">Jobs</a>
                         <a className="link link-hover">Press kit</a>
                     </div>
